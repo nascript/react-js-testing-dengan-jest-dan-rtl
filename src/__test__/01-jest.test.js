@@ -1,20 +1,22 @@
 import { pengurangan, penjumlahan, perkalian } from '../components/matematika'
 
-test('testing pertama ku', () => {
-  expect(true).toBe(true)
-})
+describe('Basic Testing', () => {
+  it('testing pertama ku', () => {
+    expect(true).toBe(true)
+  })
 
-test('testing penjumlahan', () => {
-  expect(1 + 1).toBe(2)
-})
-test('testing pekalian', () => {
-  expect(1 * 1).toBe(1)
-})
-test('testing pembagian', () => {
-  expect(5 % 3).toBe(2)
-})
-test('testing pengurangan', () => {
-  expect(4 - 1).toBe(3)
+  it('testing penjumlahan', () => {
+    expect(1 + 1).toBe(2)
+  })
+  it('testing pekalian', () => {
+    expect(1 * 1).toBe(1)
+  })
+  it('testing pembagian', () => {
+    expect(5 % 3).toBe(2)
+  })
+  it('testing pengurangan', () => {
+    expect(4 - 1).toBe(3)
+  })
 })
 
 // Testing Fungsi
